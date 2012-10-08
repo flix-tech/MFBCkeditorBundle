@@ -38,4 +38,11 @@ ElFinder: https://github.com/EricReiche/FMElfinderBundle
         });
     </script>
 {%endblock%}
+
+
+{% block stylesheets %}
+    {{  parent() }}
+
+    <link rel="stylesheet" href="{{ asset('bundles/mfbckeditor/sonata.css') }}" type="text/css" media="all">
+{%endblock%}
 ```

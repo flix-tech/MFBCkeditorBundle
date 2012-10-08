@@ -1,0 +1,23 @@
+.sonata-bc table.cke_dialog {
+    width: 700px;
+}
+
+.sonata-bc table.cke_dialog select {
+    width: auto;
+}
+
+.sonata-bc table.cke_dialog td {
+    border: none;
+}
+
+.sonata-bc table.cke_dialog label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+    line-height: 18px;
+    float: none;
+    width: auto;
+    text-align: right;
+    color: #000000;
+}
